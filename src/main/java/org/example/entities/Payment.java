@@ -5,7 +5,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
-import java.util.Optional;
 
 @Data
 @AllArgsConstructor
@@ -21,7 +20,7 @@ public class Payment {
     private LocalDate date;
 
     // Комментарий к операции
-    private Optional<String> comment;
+    private String comment;
 
     // Способ пополнения
     private PaymentType type;
