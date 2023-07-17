@@ -14,9 +14,9 @@ public class Account {
     private Long id;
     private Person person;
 
-    // Выставленные счета на списание
+
     private List<Bill> bills;
 
-    // Операции пополнения;
+
     private List<Payment> payments;
 }

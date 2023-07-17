@@ -9,8 +9,6 @@ public class DataService {
 
     public Object getConvertedData() {
 
-        Account data = dataRepository.findData();
-
-        return null;
+       return new toStringServices(dataRepository);
     }
 }

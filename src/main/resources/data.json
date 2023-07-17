@@ -1,9 +1,9 @@
 {
   "id": 1,
   "person": {
-    "name": "Олег",
-    "surname": "Маслов",
-    "patronymic": "Игоревич",
+    "name": "Oleg",
+    "surname": "Maslov",
+    "patronymic": "Igorevich",
     "birthDate": "20.02.1994"
   },
   "bills": [
@@ -11,13 +11,13 @@
       "id": 18772,
       "sum": 18000,
       "date": "01.01.2023",
-      "comment": "Счёт за питания"
+      "comment": "Restaurant bill"
     },
     {
       "id": 18773,
       "sum": 20000,
       "date": "05.01.2023",
-      "comment": "Счёт за питания"
+      "comment": "Restaurant bill"
     }
   ],
   "payments": [
@@ -25,10 +25,10 @@
       "id": 18772,
       "sum": 18000,
       "date": "02.01.2023",
-      "comment": "Оплата питания",
+      "comment": "Restaurant payment",
       "type": {
         "id": 1,
-        "name": "Оплата картой",
+        "name": "cashless payment",
         "sysname": "card"
       }
     },
@@ -38,7 +38,7 @@
       "date": "03.01.2023",
       "type": {
         "id": 1,
-        "name": "Оплата наличными",
+        "name": "cash payment",
         "sysname": "cash"
       }
     }
