@@ -9,6 +9,6 @@ public class DataService {
 
     public Object getConvertedData() {
 
-       return new toStringServices(dataRepository);
+       return new toStringServices().toStringData(dataRepository);
     }
 }
